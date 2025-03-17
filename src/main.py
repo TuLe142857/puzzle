@@ -5,4 +5,5 @@ def menu(solvers, problem):
 
 if __name__ == "__main__":
     solvers = []
-    solvers.add(DFS(), BFS())
+    solvers.append(solver.DFS())
+    solvers.append(solver.BFS())

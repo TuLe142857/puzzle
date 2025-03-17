@@ -1,6 +1,5 @@
-from abstract_solver import AbstractSolver
-import puzzle 
-from puzzle import Puzzle
+from .abstract_solver import AbstractSolver
+from .puzzle import Puzzle
 
 class BFS(AbstractSolver):
     def __init__(self):

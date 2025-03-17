@@ -1,5 +1,4 @@
 from .abstract_solver import AbstractSolver
-import puzzle as puzzle
 from .puzzle import Puzzle
 
 class DFS(AbstractSolver):

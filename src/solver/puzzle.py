@@ -146,24 +146,24 @@ class Puzzle:
 
 
 
-p = Puzzle(15, 20)
-print(p)
-print(p.possible_moves())
+# p = Puzzle(15, 20)
+# print(p)
+# print(p.possible_moves())
 
-p.execute_move(DOWN)
-print(p)
+# p.execute_move(DOWN)
+# print(p)
 
-p.execute_move(UP)
-print(p)
+# p.execute_move(UP)
+# print(p)
 
-p.execute_move(LEFT)
-print(p)
+# p.execute_move(LEFT)
+# print(p)
 
-p.execute_move(RIGHT)
-print(p)
+# p.execute_move(RIGHT)
+# print(p)
 
-p.execute_move(DOWN)
-print(p)
+# p.execute_move(DOWN)
+# print(p)
 
 # p.execute_move(UP)
 # print(p)
